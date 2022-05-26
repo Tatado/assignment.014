@@ -1,0 +1,71 @@
+1.
+Assignment Operators in Python.
+
+Operator	Description	             Syntax
++=	       Add and Assign: 
+             Add right side operand 
+            with left side operand and
+            then assign to left operand 	a+=b
+2.
+a = b 
+b = a + b
+3.
+Python Create List from 0 to 100. A special situation arises if  create a list from 0 to 100 (included). 
+In this case, we simply use the list(range(0, 101)) function call.
+ As stop argument, we use the number 101 because it's excluded from the final series.
+4.
+Input: arr[] = {1, 9, 3, 10, 4, 20, 2}
+Output: 4
+Explanation: 
+The subsequence 1, 3, 4, 2 is the longest 
+subsequence of consecutive elements
+
+Input: arr[] = {36, 41, 56, 35, 44, 33, 34, 92, 43, 32, 42}
+Output: 5
+Explanation: 
+The subsequence 36, 35, 33, 34, 32 is the longest 
+subsequence of consecutive elements.
+5.
+1.Approach 1:
+2.Approach 2: Accessing with the help of loop.
+3.Approach 3: Accessing using square brackets. ...
+4.append(): Adds an element at the end of the list. ...
+5.extend(): Add the elements of a list (or any iterable), to the end of the current 
+6.
+It can identify when it receives a string or a tuple and work on it like a list. It can done by using loops.
+ However, not every loop can be rewritten as list comprehension.
+Example: Based on a list of fruits, we want a new list, containing only the fruits with the letter "a" in the name.
+7.
+Using Python interactively by typing code directly into the interpreter
+Execute code contained in a script file from the command line
+Work within a Python Integrated Development Environment (IDE)
+8.
+Comparing Python vs. C++ speed reveals which executes faster and creates more time-efficient programs.
+ One thing to note that we need to compile C++ and interpret Python. 
+The interpretation of code is always slower than the compilation. 
+Additionally, since C++ indicates the variable type, it won’t signal type errors during runtime.
+9.
+Decorators allow us to wrap another function inorder to  extend the behaviour of the wrapped
+function,without permanently modifying it.In Decortors, function are taken as the argument into another function and then called inside the wrapper function.
+10.
+A generator is a special type of function which does not return a single value, instead ,it
+returns an iterator object with a sequence of values.In a generatrs function, a yield statement is used  rather than a return statement.
+11.
+A Python generators is a function that produce a sequence of results. It works by maintaining its local state,
+so  that thefunction can resume again exactly where it left off when called subsequent times.
+   Thus ,we think of a generators as something like a powerful iterator.
+
+12.
+Damage Prevention.
+
+
+
+
+
+
+
+
+
+
+6.reverse(): Reverses the order of the list.
+6.
